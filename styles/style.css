@@ -117,6 +117,7 @@ body { /*Seletor*/
 }
 
 .rodape {
+    width: 100%;
     padding: 24px;
     text-align: center;
     color: var(--cor-primaria);
