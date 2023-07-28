@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: #22D4FD;
+    --cor-terciaria: #9C5EF4;
     --cor-hover: #272727;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -15,12 +15,14 @@
     padding: 0;
 }
 
+
 body { /*Seletor*/
     /* height: 100vh; */ 
     box-sizing: border-box;
     background-color: var(--cor-primaria); /*Declaração(Propriedade: Valor)*/
     color: var(--cor-secundaria); 
 }
+
 
 .cabecalho {
     padding: 2% 0% 0% 15% ; /* CIMA DIREITA BAIXO ESQUERDA*/
@@ -65,10 +67,6 @@ body { /*Seletor*/
 
 .destaque-titulo { /*Para que seja possível alterar somente uma parte utilizamos classes*/
     color: var(--cor-terciaria);
-}
-
-.destaque-titulo:hover {
-    color: violet;
 }
 
 .apresentacao__conteudo__texto {
@@ -145,4 +143,10 @@ body { /*Seletor*/
     .apresentacao__conteudo {
         width: auto;
     }
+}
+
+.destaque-email {
+    color: #EF8354;
+    text-decoration: none;
+    font-weight: 600;
 }

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #9C5EF4;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif; 
+}
+
+
+
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 2rem; /*1rem = 16px*/
+    font-family: var(--fonte-primaria);  
+    font-weight: 400; 
+}
+
+.apresentacao__conteudo__texto-curriculum {
+    font-size: 1.4rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+.apresentacao__conteudo__link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__links-curriculum {
+    font-size: 1.4rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    text-decoration: underline #22D4FD;
+    color: var(--cor-secundaria);
+}
