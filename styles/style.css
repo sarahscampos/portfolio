@@ -133,6 +133,8 @@ body { /*Seletor*/
 
     .cabecalho__menu {
         justify-content: center;
+        gap:25px;
+        flex-wrap: wrap;
     }
     
     .apresentacao {
@@ -150,3 +152,4 @@ body { /*Seletor*/
     text-decoration: none;
     font-weight: 600;
 }
+ 
